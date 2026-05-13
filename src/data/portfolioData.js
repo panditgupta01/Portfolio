@@ -1,3 +1,5 @@
+const publicUrl = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+
 export const skills = [
   { name: 'React.js + Vite', level: 88 },
   { name: 'Tailwind CSS', level: 86 },
@@ -37,7 +39,7 @@ export const experienceItems = [
     highlights:
       'Designed FlowApp, a task management product in Figma—user research and wireframing, UI/UX design, prototyping and usability testing, plus A/B testing and iterative improvements. Strengthened user-centered design, visual hierarchy, and end-to-end design workflows.',
     links: [
-      { label: 'View certificate (PDF)', href: '/technohacks-uiux-internship-certificate.pdf' },
+      { label: 'View certificate (PDF)', href: publicUrl('technohacks-uiux-internship-certificate.pdf') },
       {
         label: 'Certificate on LinkedIn',
         href: 'https://www.linkedin.com/posts/panditgupta01_internship-certificate-ugcPost-7459629729596456960-YpdJ',

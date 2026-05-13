@@ -49,7 +49,7 @@ function HeroSection({ personalInfo }) {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          src="/profile-picture-enlarged.png"
+          src={`${import.meta.env.BASE_URL}profile-picture-enlarged.png`}
           alt={`${personalInfo.fullName} profile`}
           className="mx-auto h-72 w-56 rounded-3xl border border-white/15 object-cover shadow-2xl shadow-cyan-900/30 sm:h-80 sm:w-64 lg:h-[26rem] lg:w-80"
         />
