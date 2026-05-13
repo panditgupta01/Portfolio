@@ -31,11 +31,25 @@ export const projects = [
 
 export const experienceItems = [
   {
+    role: 'UI/UX Design Intern',
+    company: 'TechnoHacks Solutions Pvt. Ltd.',
+    period: '2026',
+    highlights:
+      'Designed FlowApp, a task management product in Figma—user research and wireframing, UI/UX design, prototyping and usability testing, plus A/B testing and iterative improvements. Strengthened user-centered design, visual hierarchy, and end-to-end design workflows.',
+    links: [
+      { label: 'View certificate (PDF)', href: '/technohacks-uiux-internship-certificate.pdf' },
+      {
+        label: 'Certificate on LinkedIn',
+        href: 'https://www.linkedin.com/posts/panditgupta01_internship-certificate-ugcPost-7459629729596456960-YpdJ',
+      },
+    ],
+  },
+  {
     role: 'B.Tech - Computer Science & Engineering',
     company: 'Parul University (PIT)',
-    period: '2022 - 2026',
+    period: '2022 — 2026 (completed)',
     highlights:
-      'Current CGPA: 6.91 / 10. Built practical projects in frontend, full-stack web development, and machine learning integrations.',
+      'Completed degree with final CGPA: 7.17 / 10. Built practical projects in frontend, full-stack web development, and machine learning integrations.',
   },
   {
     role: 'Project: HostelMed - AI Health Assistant',
@@ -63,17 +77,17 @@ export const contactLinks = [
 export const personalInfo = {
   fullName: 'Amarnath Prasad Gupta',
   shortName: 'AMARNATH',
-  role: 'B.Tech CSE Student | Frontend & MERN Developer',
+  role: 'B.Tech CSE Graduate | Frontend, MERN & UI/UX',
   tagline:
     'I build modern, responsive, and user-focused applications with React, MERN, and practical AI integrations.',
   aboutTitle: 'I learn by building products that solve real problems.',
   aboutDescription:
-    'I am a Computer Science student at Parul University focused on frontend engineering and full-stack development.',
+    'B.Tech Computer Science graduate from Parul University (final CGPA 7.17 / 10), focused on frontend engineering, full-stack development, and UI/UX design.',
   aboutStory:
-    'From MERN commerce apps like ShopIT to AI-powered products like HostelMed, I enjoy turning ideas into usable digital products with clean UI and strong functionality.',
+    'From MERN commerce apps like ShopIT to AI-powered products like HostelMed—and product design on FlowApp during my UI/UX internship at TechnoHacks—I enjoy turning ideas into usable digital products with clean UI and strong functionality.',
   contactTitle: 'Let us connect and build impactful products.',
   contactDescription:
-    'Open to internships, collaborative projects, and frontend/full-stack opportunities.',
+    'Open to collaborative projects and frontend, full-stack, and UI/UX opportunities.',
   phone: '+91-7050886395',
   location: 'Vaghodia, Gujarat, India',
   languages: 'Hindi, English, Maithili, Bhojpuri',
